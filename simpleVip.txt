@@ -1,0 +1,20 @@
+{
+	"versionName":"0.0.0",
+	"title":"网络出现问题",
+	"message":"请联系作者",
+	"buttons":[
+		{
+			"showText":"退出",
+			"enable": "true",
+			"clickEvent": "<exit>"
+		},{
+			"showText":"访问百度",
+			"enable": "false",
+			"clickEvent": "<Link>https://baidu.com<Link>"
+		},{
+			"showText":"进入app",
+			"enable": "true",
+			"clickEvent": "<confirm>"
+		}
+	]
+}
